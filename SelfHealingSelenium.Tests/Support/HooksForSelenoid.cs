@@ -5,17 +5,17 @@ namespace SelfHealingSelenium.Tests.Support
     [Binding]
         public class HooksForSelenoid
         {
-            public static IWebDriver Driver { get; private set; }
+        public static IWebDriver? Driver { get; private set; }
 
 
-            [BeforeScenario]
-            public void BeforeScenario()
-            {
-                Driver = WebDriverFactory.CreateSelenoidDriver(BrowserType.Chrome);
-            }
+        [BeforeScenario]
+        private void BeforeScenario()
+        {
+           Driver = WebDriverFactory.CreateSelenoidDriver(BrowserType.Chrome);
+        }
 
         [AfterScenario]
-        public void AfterScenario()
+        private void AfterScenario()
         {
            Driver?.Quit();
         }   
