@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "SelfHealingSelenium.Tests": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker"
+    }
+  }
+}
