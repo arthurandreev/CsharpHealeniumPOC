@@ -21,8 +21,4 @@
     <PackageReference Include="NUnit3TestAdapter" Version="4.1.0" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="..\.dockerignore" Link="healenium\.dockerignore" />
-  </ItemGroup>
-
 </Project>
