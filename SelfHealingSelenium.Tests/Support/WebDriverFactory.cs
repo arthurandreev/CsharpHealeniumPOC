@@ -16,7 +16,7 @@ namespace SelfHealingSelenium.Tests.Support
                 case BrowserType.Firefox:
                     return CreateFirefoxSelenoidDriver();
                 default:
-                    throw new NotSupportedException($"Browser type '{browserType}' is not supported.");
+                    throw new NotSupportedException($"Browser type '{browserType}' is not supported. Supported browser types are: Chrome, Firefox.");
             }
         }
 
@@ -33,7 +33,7 @@ namespace SelfHealingSelenium.Tests.Support
             };
 
             var chromeOptions = new ChromeOptions();
-            chromeOptions.AddAdditionalChromeOption("selenoid:options", selenoidOptions);
+            chromeOptions.AddAdditionalOption("selenoid:options", selenoidOptions);
 
             return new RemoteWebDriver(new Uri("http://localhost:8085"), chromeOptions);
         }
