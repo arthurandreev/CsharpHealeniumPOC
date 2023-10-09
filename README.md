@@ -1,5 +1,26 @@
-# SelfHealingSelenium
+# Intro
+I have come across a machine learning powered library called Healenium that integrates seamlessly with Selenium and solves a major test automation headache of regression tests failling due to small changes in web locators. 
 
+Below you will find information on how to build and run the project. You will also find explanations on key components and code blocks in the project. 
+
+# Project overview
+This project has been created to showcase the capability of integrating Healenium library into a DotNet Selenium project. 
+
+This is a proof of concept project to showcase machine learning capability that can be integrated into a Selenium DotNet project. These capabilities are provided by an open source project called Healenium. Healenium is language agnostic and can be used with other languages such as Java. I have another POC project which I built with Java. It is called MLPoweredSeleniumJavaPOC and you can find it in my pinned repositories.
+
+## What is Healenium
+Healenium is an open-source library that aims to reduce the maintenance efforts required for Selenium-based UI tests by providing self-healing capabilities. 
+It identifies the elements that were not found during test execution and tries to locate them using alternative locators. 
+Healenium then provides recommendations to update the locator strategy for the elements that were not found.
+When a test fails due to an element not being found, Healenium will search for the element using different attributes or by comparing the element's structure to what it was in the past. 
+If it finds a match, it will update the locator information at run time and proceed with running the test using the updated web locator. 
+The test will pass if the element is found, and Healenium will log the updated locator information for future reference.
+## Benefits of Healenium
+The main benefit of using Healenium is that it helps reduce the time and effort spent on maintaining and updating UI tests when the application under test undergoes changes in its user interface. 
+By automatically adapting to changes in the UI, Healenium can reduce the number of false-negative test results caused by outdated locators.
+Healenium can be used as a plugin for Java-based Selenium projects and is available on GitHub. It can also be used with other programming languages such as C# and Javascript.
+To use it, you need to add Healenium as a dependency in your project, add small codes changes to your web driver and make some configuration changes. 
+More information and usage instructions can be found in the official documentation: https://healenium.io/
 
 # Introduction 
 
