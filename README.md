@@ -90,7 +90,7 @@ SelfHealingSelenium is a Selenium test project which contains a single test. The
 
 ## Prerequisites
 
-### Tooling <br>
+### Tooling
 
 Docker desktop is installed <br>
 
@@ -100,7 +100,7 @@ Angular is installed(you will need it to run the angular app on your local machi
 
  
 
-### Code <br>
+### Code
 
 Healenium backend - healenium-backend <br>
 
