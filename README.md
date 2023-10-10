@@ -90,7 +90,7 @@ SelfHealingSelenium is a Selenium test project which contains a single test. The
 
 ## Prerequisites
 
-[Tooling] <br>
+### Tooling <br>
 
 Docker desktop is installed <br>
 
