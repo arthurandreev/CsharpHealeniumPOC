@@ -230,7 +230,7 @@ Navigate to http://localhost:7878/healenium/report/ to view the healed web eleme
 Navigate to hlm-proxy container in docker desktop to view the logs generated as part of the healing process.
 ![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/8ceb2022-5c4d-4026-9929-b6fb6255ff89)
 
-### Third run with debug - place a breakpoint on the second line in the scenario in the Feature file. 
+### Third run with debug - place a breakpoint on the first line in the scenario in the Feature file. 
 ![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/c7898adc-49c4-43b0-a386-1c50c240261f)
 
 Open http://localhost:8080, run the test with debug and watch a selenoid chrome/firefox session appear in the selenoid ui. <br>
