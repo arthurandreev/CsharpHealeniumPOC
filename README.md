@@ -106,7 +106,7 @@ Healenium backend - healenium-backend <br>
 
 Navigate to the healenium-backend folder in CMD or in developer powershell and run the following commands: <br>
 
-``` 
+```shell
 
 1. docker-compose -f docker-compose-selenoid.yaml up -d
 
@@ -114,13 +114,16 @@ Navigate to the healenium-backend folder in CMD or in developer powershell and r
 
 ```
 
-The first command pulls in all the required docker images and start running containers based on these images. <br>
+The first command pulls in all the required docker images and start running containers based on these images. After running this command, you should see the following containers running: <be>
+![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/950fd165-9bce-405a-8241-3b0c2bdf08b3)
+![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/d136455c-d661-4a65-9d5d-f39b9556b83a)
+
 
 The second command pulls a chrome image of version 111.0. <br> 
 
 Make sure that whichever image version you specify in this docker command match with your chrome browser settings outlined in the browsers json file located here - ..\healenium-backend\selenoid-config
 
- ```
+ ```shell
 
     "chrome": {
 
@@ -153,7 +156,7 @@ Application under test - my-angular-app <br>
 
 Navigate to the folder that contains the angualr project and run the following command in CMD: <br>
 
-``` 
+```shell
 
 ng serve --open 
 
