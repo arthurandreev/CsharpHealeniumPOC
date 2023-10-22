@@ -114,10 +114,7 @@ Navigate to the healenium-backend folder in CMD or in developer powershell and r
 
 ```
 
-The first command pulls in all the required docker images and start running containers based on these images. After running this command, you should see the following containers running: <be>
-![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/950fd165-9bce-405a-8241-3b0c2bdf08b3)
-![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/d136455c-d661-4a65-9d5d-f39b9556b83a)
-
+The first command pulls in all the required docker images and start running containers based on these images. <be>
 
 The second command pulls a chrome image of version 111.0. <br> 
 
@@ -179,7 +176,9 @@ postgres, healenium/hlm-proxy, healenium/hlm-backend, aerokube/selenoid, healeni
 
 You have have the following containers running: <br>
 
-selenoid-ui-1, selenoid-1, hlm-proxy, selector-imitator, postgres-db, healenium. Chrome container will run during a test run only and does not run contantly like the other containers. <br> 
+selenoid-ui-1, selenoid-1, hlm-proxy, selector-imitator, postgres-db, healenium. Chrome container will run during a test run only and does not run constantly like the other containers. <br> 
+![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/950fd165-9bce-405a-8241-3b0c2bdf08b3)
+![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/d136455c-d661-4a65-9d5d-f39b9556b83a)
 
 ### Angular <br>
 
