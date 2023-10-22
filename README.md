@@ -231,6 +231,7 @@ Navigate to hlm-proxy container in docker desktop to view the logs generated as 
 ![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/8ceb2022-5c4d-4026-9929-b6fb6255ff89)
 
 ### Third run with debug - place a breakpoint on the second line in the scenario in the Feature file. 
+![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/c7898adc-49c4-43b0-a386-1c50c240261f)
 
 Open http://localhost:8080, run the test with debug and watch a selenoid chrome/firefox session appear in the selenoid ui. <br>
 ![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/001debd4-4170-4d03-9798-091c8b766215)
