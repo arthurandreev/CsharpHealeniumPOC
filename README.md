@@ -46,7 +46,7 @@ I made some changes to the starter project. I added an id attribute #angular-mat
 ```
 Another change I made is to the angular.json configuration file. I set the host to "0.0.0.0" (allowing external access), port to 4200, and allowed all hosts. This change was required to accomodate docker. <br>
 
-``` 
+```shell
         "serve": {
 
           "builder": "@angular-devkit/build-angular:dev-server",
