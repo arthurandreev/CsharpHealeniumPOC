@@ -228,7 +228,13 @@ Navigate to hlm-proxy container in docker desktop to view the logs generated as 
 
 ### Third run with debug - place a breakpoint on the second line in the scenario in the Feature file. 
 
-Open http://localhost:8080, run the test with debug and watch a selenoid chrome session appear in the selenoid ui. <br>
+Open http://localhost:8080, run the test with debug and watch a selenoid chrome/firefox session appear in the selenoid ui. <br>
+![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/001debd4-4170-4d03-9798-091c8b766215)
 
-As you step through the scenario, you can watch selenium interacting with a chrome browser in the selenoid docker container.
+Click on the browser session to see your test run inside the selenoid container. In my example below I am using chrome driver but it will work the same way with firefox or any other driver. 
+![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/9c443141-6549-44dd-96ce-bf45131d3795)
+
+As you step through the scenario, you can watch selenium interacting with a chrome browser in the selenoid docker container to confirm that everything is working correctly. 
+![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/fe8e8d7b-060d-4120-b6f8-7cba984c588e)
+
 
