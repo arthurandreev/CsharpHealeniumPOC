@@ -183,6 +183,8 @@ selenoid-ui-1, selenoid-1, hlm-proxy, selector-imitator, postgres-db, healenium.
 ### Angular <br>
 
 You have angular application under test running on localhost 4200 <br>
+![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/9ac54b91-714f-4c13-9d20-b03e5f98d2b8)
+
 
 ### Running tests
 
