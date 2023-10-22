@@ -177,7 +177,7 @@ postgres, healenium/hlm-proxy, healenium/hlm-backend, aerokube/selenoid, healeni
 You have have the following containers running: <br>
 
 selenoid-ui-1, selenoid-1, hlm-proxy, selector-imitator, postgres-db, healenium. Chrome container will run during a test run only and does not run constantly like the other containers. <br> 
-![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/950fd165-9bce-405a-8241-3b0c2bdf08b3)
+![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/430b36d7-99a6-4a75-b830-409d5be3c04a)
 ![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/d136455c-d661-4a65-9d5d-f39b9556b83a)
 
 ### Angular <br>
