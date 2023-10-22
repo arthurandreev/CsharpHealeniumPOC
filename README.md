@@ -3,6 +3,14 @@ I have come across a machine learning powered library called Healenium that inte
 
 Below you will find information on how to build and run the project. You will also find explanations on key components and code blocks in the project. 
 
+# Table of Contents
+- [Project overview](#project-overview)
+- [What is Healenium](#what-is-healenium)
+- [Getting Started](#getting-started)
+- [Build and Test](#build-and-test)
+- [DEMO](#DEMO)
+- [Summary](#Summary)
+
 # Project overview
 This project has been created to showcase the capability of integrating Healenium library into a DotNet Selenium project. 
 
@@ -22,7 +30,7 @@ Healenium can be used as a plugin for Java-based Selenium projects and is availa
 To use it, you need to add Healenium as a dependency in your project, add small codes changes to your web driver and make some configuration changes. 
 More information and usage instructions can be found in the official documentation: https://healenium.io/
 
-# Introduction 
+# Getting Started
 
 There are three self contained projects in this solution:
 
@@ -31,8 +39,6 @@ Application under test - my-angular-app <br>
 Healenium backend - healenium-backend <br>
 
 Selenium based test project - SelfHealeningSelenium 
-
-# Getting Started
 
 my-angular-app is based on a starter project for angular which can be found here - https://angular.io/guide/setup-local <br>
 
@@ -97,8 +103,6 @@ Docker desktop is installed <br>
 Docker is running(open the docker desktop application) <br>
 
 Angular is installed(you will need it to run the angular app on your local machine) <br>
-
- 
 
 ### Code
 
@@ -186,7 +190,7 @@ You have angular application under test running on localhost 4200 <br>
 ![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/9ac54b91-714f-4c13-9d20-b03e5f98d2b8)
 
 
-### Running tests
+# DEMO
 
 Run the test by navigating to test explorer and clicking Run. There is only one scenario in the single Feature file. <br>
 
@@ -237,4 +241,5 @@ Click on the browser session to see your test run inside the selenoid container.
 As you step through the scenario, you can watch selenium interacting with a chrome browser in the selenoid docker container to confirm that everything is working correctly. 
 ![image](https://github.com/arthurandreev/MLPoweredSeleniumDotNetPOC/assets/35194143/fe8e8d7b-060d-4120-b6f8-7cba984c588e)
 
-
+# Summary
+Healenium offers a valuable solution for Selenium automation projects, significantly reducing maintenance work and addressing the common issue of failing regression tests due to minor web locator changes. It's a powerful tool for making your test automation more robust and efficient, allowing you to focus on creating tests for new features rather than constantly fixing failing regression tests. Explore Healenium further to harness its full capabilities and enhance your test automation processes.
